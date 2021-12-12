@@ -31,17 +31,15 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgresql://postgres:wJaN3EkYJpKHCNbuNc7o@containers-us-west-4.railway.app:7516/railway"  # needed for any database modules
     REDIS_URI = " "
     LOAD = []
     NO_LOAD = []
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    HEROKU_API_KEY = ""
-    HEROKU_APP_NAME = ""
-    BOT_USERNAME = ""
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    BOT_USERNAME = "banhbaobot"
+    SPAMWATCH_API = "YMIQBS-ZWXCYX-XCIUXU-IQMWAN-ARQ"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
     ARQ_API_KEY = "GBVANC-POIBJH-XAYVHT-XZBPTG-ARQ"
     ARQ_API_URL = "https://thearq.tech/"
