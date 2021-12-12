@@ -86,7 +86,7 @@ class Config(object):
     SPAMMERS = None
     REM_BG_API_KEY = ""
     GENIUS_API_TOKEN = ""
-    MONGO_DB = ""
+    MONGO_DB = "mongodb+srv://ri:ri@cluster0.a1yys.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     
 
 class Production(Config):
